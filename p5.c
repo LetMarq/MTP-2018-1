@@ -1,7 +1,9 @@
+//Letícia Marques Pinho Tiago - 11721EBI014
+
 #include <stdio.h>
 
 int main(){
-    int i, opt,*p,vetor[64];
+    int i, opt,*p,vetor[63];
     char *pc;
     char string[256];
     p=(int*)string;
@@ -40,7 +42,7 @@ int main(){
 				{
 					vetor[i]=0;
 				}
-				for (i=0;i<64;i++)
+				for (i=0;i<63;i++)
 				{
 					scanf("%d", &vetor[i]);
 					if (vetor[i]==0)
