@@ -1,4 +1,4 @@
-// Letícia Marques Pinho Tiago - 11721EBI014
+// LetÃ­cia Marques Pinho Tiago - 11721EBI014
 
 #include <stdio.h>
 
@@ -208,22 +208,22 @@ int main()
 		{
 		case 1:
 			printf ("Digite o numero em binario: \n>");
-			scanf("%s",&vet); getchar ();
+			scanf("%s",(char *)&vet); getchar ();
 			bin_dec(vet);
 			break;
 		case 2:
 			printf ("Digite o numero em binario: \n>");
-			scanf("%s",&vet); getchar ();
+			scanf("%s",(char *)&vet); getchar ();
 			bin_hex(vet);
 			break;
 		case 3:
 			printf ("Digite o numero em hexadecimal: \n>");
-			scanf("%s",&vet); getchar();
+			scanf("%s",(char *)&vet); getchar();
 			hex_dec(vet);
 			break;
 		case 4:
 			printf ("Digite o numero em hexadecimal: \n>");
-			scanf("%s",&vet); getchar();
+			scanf("%s",(char *)&vet); getchar();
 			hex_bin(vet);
 			break;
 		case 6:
@@ -238,7 +238,7 @@ int main()
 			break;
 		case 7:
 			printf ("Digite o numero em octal: \n>");
-			scanf("%s",&vet); getchar();
+			scanf("%s",(char *)&vet); getchar();
 			octal_dec(vet);
 			break;
 		case 8:
