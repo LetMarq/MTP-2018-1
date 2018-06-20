@@ -1,5 +1,5 @@
-// Letícia Marques Pinho Tiago 
-// Matrícula - 11721EBI014
+// LetÃ­cia Marques Pinho Tiago 
+// MatrÃ­cula - 11721EBI014
 
 #include <stdio.h>
 
@@ -9,7 +9,7 @@ int main()
 	char bits[256];
 	printf("Escolha um numero em binario: \n");
 	fflush(stdin);
-	scanf("%s",&bits);
+	scanf("%s",(char *)&bits);
 	while (bits[n]!='\0')
 	{
 		if(estado==0)
