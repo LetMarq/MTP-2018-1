@@ -1,4 +1,4 @@
-// Letícia Marques Pinho Tiago - 11721EBI014
+// LetÃ­cia Marques Pinho Tiago - 11721EBI014
 
 #include <stdio.h>
 #include <stdlib.h>
