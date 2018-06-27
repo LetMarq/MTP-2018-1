@@ -25,8 +25,9 @@ float soma(float v[], int n)
 
 float prod(float v[], int j)
 {
+	int i=0;
 	float multiplica = 1.0f;
-	for(int i=0; i<j; i++) {
+	for(i=0; i<j; i++) {
 		multiplica = multiplica * v[i];}
   	return multiplica;
 }
@@ -52,8 +53,7 @@ int main()
 		  	printf("\nProduto: %f", prod(num, tamanho));
 		  	break;
 		  case 3:
-        	return 0;
-
+        		return 0;
 			break;
     }
 	}while(opt!=3);
