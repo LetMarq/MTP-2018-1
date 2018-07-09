@@ -49,11 +49,11 @@ int main()
 	}
 	if (estado == 0)
 	{
-		printf ("A sequencia eh multipla de 3.");
+		printf ("A sequencia eh multiplo de 3.");
 	}
 	else
 	{
-		printf ("A sequencia nao eh multipla de 3.");
+		printf ("A sequencia nao eh multiplo de 3.");
 	}
 	return 0;
 }
